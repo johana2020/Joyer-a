@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="Autor: " content="Página donde el usuario registrado puede ingresar a su cuenta">
+    <title>Inicio de sesión</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+
+    <div class="container">
+        <div class="icon">
+            <img src="../assets/img/usuario.png" height="30px">
+        </div>
+        <div class="forms">
+            <div class="login-form">
+                <h2>Iniciar sesión</h2>
+                <form method="post">
+                    <input type="text" name="username" placeholder="Usuario" required> <br><br>
+                    <input type="password" name="password" placeholder="Contraseña" required> <br><br>
+                    <a href="../views/passRecover.html">¿Olvidaste tu contraseña?</a> <br>
+                    <button type="submit" onclick="location.href='../index.html'"> Entrar</button>
+                </form>
+            </div>
+
+
+    <footer class="footer-personalizado">
+        <hr class="linea-personalizada">
+        <div class="container">
+          <div class="row">
+            <div class="col-4">
+              <p>Síguenos en nuestras redes sociales:</p>
+              <a href="#" target="_blank"><img src="../assets/img/instagram.png" style="width: 40px; margin: 5px;"></a>
+              <a href="#" target="_blank"><img src="../assets/img/facebook.png" style="width: 40px; margin: 5px;"></a>
+              <a href="#" target="_blank"><img src="../assets/img/correos-electronicos.png" style="width: 40px; margin: 5px;"></a>
+            </div>
+            <div class="col-4">
+              <!-- Espacio vacío -->
+            </div>
+            <div class="col-4">
+              <p>¿Tienes alguna pregunta o sugerencia?</p>
+              <a href="./contact.html">Contáctanos aquí</a>
+            </div>
+          </div>
+        </div>
+      </footer>
+
+</body>
+</html>

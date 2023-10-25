@@ -2,10 +2,13 @@
     text-align: center;
     background-color: antiquewhite;
 }
-.navbar-home{
+.navbar navbar-expand-lg bg-body-tertiary{
     background-color:antiquewhite;
     /* ]height: 8vh; */
-    align-items: center;
+    /*align-items: center;*/
+}
+.login-form{
+    text-align: center;
 }
 
 

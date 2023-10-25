@@ -17,61 +17,84 @@
     </div>
   </nav>
 
-      <nav class="navbar-home">
-        <div class="container-home">
-          <a class="navbar-brand" href="#"></a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavDropdown">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">Home</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Features</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Pricing</a>
-              </li>
-              <li class="nav-item dropdown">
-                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                  Dropdown link
-                </a>
-                <ul class="dropdown-menu">
-                  <li><a class="dropdown-item" href="#">Action</a></li>
-                  <li><a class="dropdown-item" href="#">Another action</a></li>
-                  <li><a class="dropdown-item" href="#">Something else here</a></li>
-                </ul>
-              </li>
-            </ul>
-          </div>
+<nav class="navbar navbar-expand-lg bg-body-tertiary">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">SkadyLuxe</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="#">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Lista De Deseos</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Categorias
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item" href="#">Anillos</a></li>
+            <li><a class="dropdown-item" href="#">Cadenas</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="#">Joyas de temporada</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link disabled" aria-disabled="true">Contacto</a>
+        </li>
+      </ul>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+
+<div class="card mb-3">
+  <img src="./assets/img/index.jpg" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Amante de la belleza</h5>
+    <p class="card-text">
+      En SkadyLuxe, valoramos profundamente tu pasión por las joyas. Tu elección de confiar en nosotros para realzar tu estilo y resaltar tu elegancia es un honor que apreciamos cada día.
+    </p>
+    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+  </div>
+</div>
+<div class="card">
+  <img src="./assets/img/index2.png" class="card-img-top" alt="...">
+  <div class="card-body">
+    <h5 class="card-title">Elegancia</h5>
+    <p class="card-text">
+      Cada joya que encuentres en nuestra tienda ha sido cuidadosamente seleccionada y creada con un compromiso inquebrantable con la calidad y el diseño excepcional. Nuestra misión es superar tus expectativas en cada visita.
+    </p>
+    <p class="card-text"><small class="text-body-secondary">Last updated 3 mins ago</small></p>
+  </div>
+  <!-- <img src="..." class="card-img-bottom" alt="..."> -->
+</div>
+
+  <footer class="footer-personalizado">
+    <hr class="linea-personalizada">
+    <div class="container">
+      <div class="row">
+        <div class="col-4">
+          <p>Síguenos en nuestras redes sociales:</p>
+          <a href="#" target="_blank"><img src="./assets/img/instagram.png" style="width: 40px; margin: 5px;"></a>
+          <a href="#" target="_blank"><img src="./assets/img/facebook.png" style="width: 40px; margin: 5px;"></a>
+          <a href="#" target="_blank"><img src="./assets/img/correos-electronicos.png" style="width: 40px; margin: 5px;"></a>
         </div>
-      </nav>
-
-
-
-  
-
-    <footer class="footer-personalizado">
-      <hr class="linea-personalizada">
-      <div class="container">
-        <div class="row">
-          <div class="col-4">
-            <p>Síguenos en nuestras redes sociales:</p>
-            <a href="#" target="_blank"><img src="./assets/img/mail.svg" style="width: 40px; margin: 5px;"></a>
-            <a href="#" target="_blank"><img src="./assets/img/insta.svg" style="width: 40px; margin: 5px;"></a>
-            <a href="#" target="_blank"><img src="./assets/img/wa.svg" style="width: 40px; margin: 5px;"></a>
-          </div>
-          <div class="col-4">
-            <!-- Espacio vacío -->
-          </div>
-          <div class="col-4">
-            <p>¿Tienes alguna pregunta o sugerencia?</p>
-            <a href="./views/contact.html">Contáctanos aquí</a>
-          </div>
+        <div class="col-4">
+          <!-- Espacio vacío -->
+        </div>
+        <div class="col-4">
+          <p>¿Tienes alguna pregunta o sugerencia?</p>
+          <a href="./views/contact.html">Contáctanos aquí</a>
         </div>
       </div>
-    </footer>
+    </div>
+  </footer>
 </body>
 </html>
